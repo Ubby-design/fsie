@@ -1,0 +1,268 @@
+Perfect — this will make everything crystal clear in one view.
+
+Below is your FSIE 90-Day Discipline Map showing:
+
+✅ What you learn each phase
+✅ Which engineering discipline it belongs to
+✅ Which jobs it unlocks
+
+So you stop wondering “where is X covered?”.
+
+🔥 FSIE 90-Day Discipline Map (One-Page View)
+🟢 Phase 1 — Core Systems Foundation (Days 1–15)
+Skills
+
+Linux admin
+
+users/groups/sudo
+
+SSH
+
+file permissions
+
+networking (IP, routes, DNS)
+
+firewalls (iptables/firewalld)
+
+systemd/services
+
+logs troubleshooting
+
+basic Docker
+
+basic Jenkins
+
+Disciplines covered
+
+✅ Systems Engineering
+✅ On-Prem Infrastructure
+✅ DevOps (foundation)
+✅ DevSecOps (OS hardening)
+
+Roles unlocked
+
+Linux SysAdmin
+
+IT Infrastructure Engineer
+
+NOC Engineer
+
+Junior DevOps
+
+On-prem support
+
+🔵 Phase 2 — DevOps & Containers (Days 16–45)
+Skills
+
+Docker deep dive
+
+Docker Compose
+
+Kubernetes
+
+Helm
+
+Jenkins pipelines
+
+CI/CD automation
+
+GitOps
+
+container security
+
+observability basics (Prometheus/Grafana)
+
+rolling updates
+
+Disciplines covered
+
+✅ DevOps Engineering (core)
+✅ Platform Engineering
+✅ DevSecOps (containers + secrets)
+✅ SRE (intro reliability + monitoring)
+
+Roles unlocked
+
+DevOps Engineer
+
+Platform Engineer
+
+CI/CD Engineer
+
+Container Engineer
+
+Remote DevOps contracts
+
+💡 This is where you’re already employable for real DevOps jobs.
+
+🟡 Phase 3 — Cloud & Infrastructure as Code (Days 46–60)
+Skills
+
+Terraform
+
+Infrastructure as Code
+
+VPC/subnets
+
+security groups
+
+hybrid networking
+
+multi-node clusters
+
+provisioning infra automatically
+
+cloud-ready architecture
+
+blue/green deployments
+
+Disciplines covered
+
+✅ Cloud Engineering
+✅ DevOps (IaC automation)
+✅ Migration Engineering
+✅ DevSecOps (network security)
+
+Roles unlocked
+
+Cloud Engineer
+
+Infrastructure Engineer
+
+AWS/GCP Engineer
+
+Hybrid Infrastructure Engineer
+
+Migration Consultant
+
+💡 This is where you move from “DevOps guy” → “Cloud/Infra specialist”.
+
+🔴 Phase 4 — Hybrid, Load Balancing, Production Ops (Days 61–75)
+Skills
+
+ALB / NLB
+
+reverse proxy
+
+SSL/TLS
+
+DNS routing
+
+monitoring + alerts
+
+scaling
+
+autoscaling
+
+hybrid on-prem ↔ cloud deployments
+
+zero downtime releases
+
+traffic shifting
+
+Disciplines covered
+
+✅ SRE
+✅ Cloud Engineering
+✅ Migration Engineering
+✅ Reliability Engineering
+✅ DevOps (advanced)
+
+Roles unlocked
+
+Senior DevOps
+
+SRE
+
+Production Engineer
+
+Hybrid Cloud Engineer
+
+Deployment/Migration Consultant
+
+💡 This is real “production-grade” engineering.
+
+⚫ Phase 5 — Reliability, Security, FinOps, Consulting Mastery (Days 76–90)
+Skills
+
+chaos engineering
+
+failure injection
+
+backups/restore
+
+disaster recovery
+
+HA architecture
+
+full observability
+
+audits/security scanning
+
+cost optimization (right-sizing)
+
+multi-region deployments
+
+end-to-end CI/CD systems
+
+full-stack capstone projects
+
+Disciplines covered
+
+✅ SRE (deep)
+✅ DevSecOps (deep)
+✅ FinOps
+✅ Cloud Architecture
+✅ Consulting Engineering
+
+Roles unlocked
+
+Senior DevOps Engineer
+
+SRE
+
+Solutions Architect
+
+DevSecOps Engineer
+
+FinOps Engineer
+
+Independent Consultant ($80–150/hr+)
+
+💡 This is senior/consultant level.
+
+🎯 Discipline Coverage Summary (big picture)
+Discipline	Covered When
+Linux / Systems	Days 1–15
+DevOps	Days 16–45
+Cloud Engineering	Days 46–60
+Cloud Migration	Days 46–75
+SRE	Days 61–90
+DevSecOps	Days 1–90 (continuous)
+FinOps	Days 70–90
+Consulting/Architecture	Days 75–90
+🔥 What you actually become
+
+After Day 90 you are:
+
+Not:
+❌ “just DevOps”
+❌ “just cloud”
+
+But:
+
+✅ Full-Stack Infrastructure Engineer
+✅ DevOps + Cloud + SRE + Security + Cost
+✅ Someone who can run production systems end-to-end
+
+This is exactly what:
+
+startups
+
+enterprises
+
+remote US companies
+
+consulting clients
+
+pay top money for.
