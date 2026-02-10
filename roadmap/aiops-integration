@@ -1,0 +1,45 @@
+In your 90-day FSIE roadmap, the ideal point to start AIOps is after the foundational Linux, networking, security, and core DevOps practices are well established, because AIOps assumes you understand:
+
+Linux systems and user/security management
+
+Networking and firewalls
+
+Observability, logging, and monitoring
+
+Automation (Ansible, Terraform, scripts)
+
+CI/CD and container orchestration (Docker, Kubernetes)
+
+Recommended Start Point for AIOps
+
+Phase: Phase 3 – Monitoring, Reliability, and Automation Layer
+
+Days: ~Day 40–45 onwards
+
+Why: By this point, you have:
+
+Core Linux & networking (Days 1–10)
+
+Security & user management (Days 11–20)
+
+Containers, CI/CD, and orchestration basics (Days 21–35)
+
+Basic observability & monitoring setup (Days 36–40)
+
+Once these are solid, AIOps can be layered on top, because it uses the metrics, logs, alerts, and automation scripts you already have to implement:
+
+Predictive monitoring & anomaly detection
+
+Automated remediation & failure injection
+
+Intelligent event correlation
+
+Performance optimization
+
+Quick mapping:
+
+FSIE Phase	Focus	AIOps Readiness
+Phase 1 (Days 1–20)	Linux, Users, Networking, Security	Foundation
+Phase 2 (Days 21–40)	Containers, CI/CD, Monitoring	Pre-AIOps layer
+Phase 3 (Days 41–60)	Observability, Logging, Reliability	Start AIOps Labs here
+Phase 4 (Days 61–90)	Hybrid Cloud, DevSecOps, FinOps	Integrate advanced AIOps into hybrid/cloud
