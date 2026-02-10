@@ -1,0 +1,224 @@
+Big Picture First (So you see the logic)
+Timeline
+Day 1–45   → Build foundations + AWS core → SAA ready
+Day 45–50  → Sit SAA
+Day 50–90  → Hybrid + advanced design → SAP ready
+Day 90–100 → Sit SAP
+
+🟢 PART 1 — SAA Coverage (Days 1–45)
+
+SAA tests:
+
+EC2
+
+VPC
+
+IAM
+
+Storage
+
+Load balancing
+
+Autoscaling
+
+HA/DR basics
+
+Monitoring
+
+Cost basics
+
+Notice something?
+
+👉 These are exactly DevOps + Cloud basics
+So your roadmap already covers them naturally.
+
+📅 SAA Objective → Lab Mapping
+🔹 Days 1–10 — Linux / Systems
+Labs:
+
+VM setup
+
+SSH
+
+users/groups
+
+firewall
+
+services
+
+troubleshooting
+
+SAA covers:
+
+✅ EC2 admin fundamentals
+✅ OS hardening
+✅ SSH access
+✅ security mindset
+✅ system troubleshooting
+
+Why?
+
+EC2 = Linux server
+If Linux weak → SAA weak
+
+Most people skip this.
+You won’t.
+
+🔹 Days 11–20 — Networking + Security
+Labs:
+
+TCP/IP
+
+subnets
+
+routing
+
+iptables / ufw
+
+DNS
+
+NAT
+
+firewall rules
+
+SAA covers:
+
+✅ VPC design
+✅ public/private subnet concepts
+✅ routing tables
+✅ NAT gateway
+✅ security groups vs NACLs
+✅ DNS (Route53 logic)
+
+Why?
+
+Half of SAA = networking
+
+This phase alone gives you 40–50% of the exam.
+
+🔹 Days 21–30 — Docker + CI/CD
+Labs:
+
+Docker
+
+images
+
+containers
+
+Jenkins
+
+pipelines
+
+deployments
+
+SAA covers:
+
+✅ stateless vs stateful apps
+✅ deployment strategies
+✅ scaling patterns
+✅ immutable infra mindset
+✅ blue/green deploy concepts
+
+Why?
+
+SAA LOVES:
+“How would you deploy reliably?”
+
+Containers + CI/CD answer everything.
+
+🔹 Days 31–40 — Terraform + AWS Core
+Labs:
+
+VPC with Terraform
+
+EC2
+
+S3
+
+RDS
+
+IAM
+
+ALB/NLB
+
+autoscaling
+
+SAA covers:
+
+🔥 THIS IS 70–80% OF THE EXAM 🔥
+
+✅ VPC
+✅ Subnets
+✅ Internet Gateway
+✅ NAT Gateway
+✅ ALB
+✅ NLB
+✅ Auto Scaling Groups
+✅ EC2 types
+✅ IAM roles/policies
+✅ S3 storage classes
+✅ RDS multi-AZ
+
+Why?
+
+This is literally the exam blueprint.
+
+You’re not studying.
+You’re deploying.
+
+🔹 Days 41–45 — Monitoring
+Labs:
+
+Prometheus
+
+Grafana
+
+logs
+
+alerts
+
+SAA covers:
+
+✅ CloudWatch concepts
+✅ alarms
+✅ metrics
+✅ logging
+✅ health checks
+
+🎯 RESULT
+
+By Day 45:
+
+You already implemented:
+
+networking
+
+EC2
+
+IAM
+
+ALB
+
+storage
+
+scaling
+
+monitoring
+
+👉 That’s basically the entire SAA.
+
+So:
+
+📌 Take SAA here
+
+Day 45–50
+
+Only do:
+
+practice questions
+
+exam tricks
+
+AWS docs skim
+
+NOT heavy studying.
