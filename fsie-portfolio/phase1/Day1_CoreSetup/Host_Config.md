@@ -10,7 +10,7 @@ This document describes the steps and rationale for configuring hostnames and lo
 
 # Example: Vagrantfile
 Vagrant.configure("2") do |config|
-  config.vm.box = "ubuntu/bionic64"
+  config.vm.box = "ubuntu/jammy64"
   config.vm.hostname = "fsie-node1"
   config.vm.network "private_network", ip: "192.168.56.71"
   config.vm.provider "virtualbox" do |vb|
