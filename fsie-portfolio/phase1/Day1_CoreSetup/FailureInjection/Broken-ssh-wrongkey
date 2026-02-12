@@ -1,0 +1,153 @@
+# SSH Failure Injection & Recovery Lab
+
+## 1️⃣ Objective
+
+Simulate a real-world SSH key failure scenario on a Linux VM and recover access safely.
+
+Goals:
+
+* Understand SSH key authentication mechanics.
+* Practice failure injection in a controlled environment.
+* Execute recovery using console access and backups.
+* Document process for reproducibility and portfolio demonstration.
+
+---
+
+## 2️⃣ Environment
+
+| Component     | Version / Info               |
+| ------------- | ---------------------------- |
+| VM Hypervisor | VirtualBox                   |
+| Guest OS      | Ubuntu 22.04 LTS             |
+| SSH Client    | Git Bash / WSL on Windows    |
+| Backup        | `~/.ssh/authorized_keys.bak` |
+
+---
+
+## 3️⃣ Pre-Requisites
+
+* A working SSH login with correct private/public key pair.
+* Console access to the VM via VirtualBox.
+* Backup of `~/.ssh/authorized_keys`.
+
+---
+
+## 4️⃣ Step-by-Step Procedure
+
+### Step 1 — Confirm SSH Login
+
+```
+ssh vagrant@192.168.56.71
+```
+
+✅ Confirmed login with the correct private key.
+
+---
+
+### Step 2 — Backup Current Authorized Keys
+
+```
+cp ~/.ssh/authorized_keys ~/.ssh/authorized_keys.bak
+```
+
+* Ensures recovery if failure occurs.
+
+---
+
+### Step 3 — Inject Failure (Wrong Public Key)
+
+```
+echo "" > ~/.ssh/authorized_keys
+cat ~/wrong_id_rsa.pub > ~/.ssh/authorized_keys
+```
+
+* Emptied the file first.
+* Inserted a mismatched public key to simulate SSH failure.
+
+---
+
+### Step 4 — Attempt SSH Login (Expected Failure)
+
+```
+ssh vagrant@192.168.56.71
+```
+
+❌ Login fails because key mismatch is detected.
+
+---
+
+### Step 5 — Access VM via Console
+
+* Open VirtualBox console.
+* Login with VM username/password.
+
+---
+
+### Step 6 — Verify Backup
+
+```
+cat ~/.ssh/authorized_keys.bak
+```
+
+* Confirmed the backup contains correct public key.
+
+---
+
+### Step 7 — Clear Wrong Key
+
+```
+echo "" > ~/.ssh/authorized_keys
+```
+
+* Ensures the wrong key is removed.
+
+---
+
+### Step 8 — Restore Correct Public Key
+
+```
+cp ~/.ssh/authorized_keys.bak ~/.ssh/authorized_keys
+cat ~/.ssh/authorized_keys
+```
+
+✅ Confirmed correct key restored.
+
+---
+
+### Step 9 — Re-Test SSH Login
+
+```
+ssh vagrant@192.168.56.71
+```
+
+✅ Login successful with correct private key.
+
+---
+
+## 5️⃣ Observations
+
+* SSH authentication strictly requires matching key pairs.
+* Backup of `authorized_keys` is critical for recovery.
+* VirtualBox console access bypasses SSH, enabling disaster recovery.
+* Truncating (`echo "" > file`) vs deleting (`rm file`) has practical implications for permissions.
+
+---
+
+## 6️⃣ Lessons Learned
+
+* Always keep a backup of critical authentication files.
+* Failure injection is an effective way to understand system behavior.
+* Console access is essential when remote access fails.
+* Verification after each step ensures confidence in recovery.
+* This exercise simulates real-world incident response workflows.
+
+---
+
+## 8️⃣ Outcome
+
+* Demonstrated controlled SSH failure injection.
+* Successfully restored system access using backup and console.
+* Documented process for reproducibility.
+
+✅ **Portfolio Impact:**
+This lab showcases **hands-on DevOps troubleshooting skills**, secure SSH management, and controlled failure recovery — perfect for demonstrating **production-level Linux/SSH competency** on GitHub.
