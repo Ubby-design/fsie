@@ -81,11 +81,9 @@ Skills demonstrated:
 
 Network interface inspection
 
-Netplan configuration debugging
+Vagrantfile; static IP misconfigured
 
-ARP conflict detection
-
-Connectivity testing (ping, ip addr, ip route)
+Connectivity testing (ping, ip addr)
 
 Network service restoration
 
